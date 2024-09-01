@@ -103,19 +103,10 @@ function Header(props) {
                 tag={Link}
                 style={{ color: theme.text }}
               >
-                Education
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className={({ isActive }) => (isActive ? "current-link" : "xp")}
-                to="/experience"
-                tag={Link}
-                style={{ color: theme.text }}
-              >
                 Experience
               </NavLink>
             </li>
+
             <li>
               <NavLink
                 className={({ isActive }) =>
@@ -130,14 +121,24 @@ function Header(props) {
             </li>
             <li>
               <NavLink
+                className={({ isActive }) => (isActive ? "current-link" : "xp")}
+                to="/experience"
+                tag={Link}
+                style={{ color: theme.text }}
+              >
+                Leadership
+              </NavLink>
+            </li>
+            {/* <li>
+              <NavLink
                 className={({ isActive }) => (isActive ? "current-link" : "cr")}
                 to="/contact"
                 tag={Link}
                 style={{ color: theme.text }}
               >
-                Contact
+                About
               </NavLink>
-            </li>
+            </li> */}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

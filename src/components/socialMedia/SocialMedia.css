@@ -18,6 +18,11 @@
   justify-content: center;
   align-items: center;
 }
+.phone-icon {
+  width: 40px;
+  height: 40px;
+  fill: #FFFFFF;
+}
 
 .social-icon svg,
 .social-icon img {

@@ -14,6 +14,7 @@
 
 .projects-heading-div {
   display: flex;
+  flex-direction: row-reverse; /* Switch the order of the image and text */
 }
 
 .projects-heading-div > * {
@@ -27,6 +28,7 @@
 
 .projects-heading-text-div {
   text-align: center;
+  margin-right: 40px; /* Add right margin to create space between the text and image */
 }
 
 .projects-heading-img-div > * {

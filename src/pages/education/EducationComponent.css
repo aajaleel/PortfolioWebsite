@@ -9,6 +9,9 @@
 
 .heading-div {
   display: flex;
+  justify-content: space-between; /* Distribute space between the elements */
+  align-items: center; /* Align items vertically in the center */
+  margin-top: 40px; /* Add top margin to create space between the image and the header */
 }
 
 .heading-div > * {
@@ -21,12 +24,13 @@
 }
 
 .heading-text-div {
-  text-align: center;
+  text-align: center; /* Center text */
 }
 
 .heading-img-div > * {
   max-width: 100%;
   height: auto;
+  border-radius: 15px; /* Add rounded corners to the image */
 }
 
 .heading-text {
@@ -35,13 +39,14 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .heading-sub-text {
   font-size: 30px;
   font-family: "Google Sans Regular";
-  text-align: center;
+  text-align: center; /* Center subtext */
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1380px) {
@@ -67,4 +72,21 @@
   .heading-div {
     flex-direction: column;
   }
+
+  .experience-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+.education-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Make the entire block clickable */
+}
+
+.education-card-link:hover .heading-div {
+  transform: scale(1.05); /* Optional: Add a hover effect to the card */
+  transition: transform 0.2s ease-in-out;
 }

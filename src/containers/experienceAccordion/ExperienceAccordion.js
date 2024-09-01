@@ -12,11 +12,19 @@ function ExperienceAccordion(props) {
         <main className="experience-container experience-cards">
           {props.sections["experiences"].map((experience, index) => {
             return (
-              <ExperienceCard
+              <a
+                href={experience.link} // Link here
+                target="_blank"
+                rel="noopener noreferrer"
                 key={"experience-" + index}
-                experience={experience}
-                theme={theme}
-              />
+                className="experience-card-link"
+              >
+                <ExperienceCard
+                  key={"experience-" + index}
+                  experience={experience}
+                  theme={theme}
+                />
+              </a>
             );
           })}
         </main>

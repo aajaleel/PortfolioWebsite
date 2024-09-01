@@ -1,10 +1,13 @@
 import React from "react";
-import portfolioPhoto from "../../assets/images/portfolioProfileImage.png";
+import portfolioPhoto from "../../assets/images/Headshot.jpg";
 import "./FeelingProud.css";
 
 function FeelingProud(props) {
-  // const theme = props.theme;
-  return <img src={portfolioPhoto} alt="portfolio-profile" />;
+  return (
+    <div className="profile-image-wrapper">
+      <img src={portfolioPhoto} alt="portfolio-profile" className="profile-image" />
+    </div>
+  );
 }
 
 export default FeelingProud;

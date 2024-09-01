@@ -1,18 +1,77 @@
-.educations-header {
-  font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
+.education-main {
+  width: 100%;
+}
+
+.basic-education {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.education-heading-div {
+  display: flex;
+  flex-direction: column; /* Align items vertically in a column */
+  align-items: center; /* Align items horizontally to the center */
+  justify-content: center; /* Align items vertically to the center */
   text-align: center;
 }
 
+.education-heading-img-div {
+  width: 100%; /* Ensure the image takes up full width */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+.education-heading-img-div > img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optionally, add rounded corners to the image */
+}
+
+.education-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  margin-top: 20px; /* Adjust the top margin */
+}
+
+.education-heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  margin-bottom: 10px;
+}
+
+.education-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  font-family: "Google Sans Medium";
+}
+
 @media (max-width: 1380px) {
-  .educations-header {
-    font-size: 35px;
+  .education-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .education-heading-sub-text {
+    font-size: 25px;
   }
 }
 
 @media (max-width: 768px) {
-  .educations-header {
+  .education-heading-text {
     font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .education-heading-sub-text {
+    font-size: 20px;
+  }
+
+  .education-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
   }
 }

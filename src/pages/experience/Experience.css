@@ -85,3 +85,15 @@
     text-align: center;
   }
 }
+.experience-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.experience-video-container iframe {
+  border-radius: 8px;
+}

@@ -3,13 +3,23 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { Fade } from "react-reveal";
-import { contactPageData } from "../../portfolio.js";
+import { contactPageData, greeting } from "../../portfolio.js"; // Import greeting
+import { style } from "glamor"; // Import style for the button
 import "./ContactComponent.css";
 
 const ContactData = contactPageData.contactSection;
 
 export default function Contact(props) {
   const theme = props.theme;
+
+  const buttonStyles = style({
+    backgroundColor: `${theme.accentBright}`,
+    padding: "15px 30px !important",
+    letterSpacing: "0.125rem",
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
+    },
+  });
 
   return (
     <div className="contact-main">
@@ -38,6 +48,20 @@ export default function Contact(props) {
                 {ContactData["description"]}
               </p>
               <SocialMedia page="contact" />
+              {/* Add the resume button here */}
+              {greeting?.resumeLink && (
+                <div className="portfolio-repo-btn-div">
+                  <a
+                    {...buttonStyles}
+                    className="button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={greeting.resumeLink}
+                  >
+                    Résumé
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </Fade>

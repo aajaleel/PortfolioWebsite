@@ -12,7 +12,6 @@ function Educations(props) {
       <div className="educations-header-div">
         <Fade bottom duration={2000} distance="20px">
           <h1 className="educations-header" style={{ color: theme.text }}>
-            Qualifications
           </h1>
         </Fade>
       </div>

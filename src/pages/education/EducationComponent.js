@@ -14,26 +14,27 @@ function Education(props) {
       <Header theme={props.theme} setTheme={props.setTheme} />
       <div className="basic-education">
         <Fade bottom duration={2000} distance="40px">
-          <div className="heading-div">
-            <div className="heading-img-div">
-              <EducationImg theme={theme} />
+          <a href="https://your-link-here.com" className="education-card-link">
+            <div className="heading-div">
+              <div className="heading-img-div">
+                <EducationImg theme={theme} />
+              </div>
+              <div className="heading-text-div">
+                <h1 className="heading-text" style={{ color: theme.text }}>
+                  Experience
+                </h1>
+                <h3 className="heading-sub-text" style={{ color: theme.text }}>
+                  Work
+                </h3>
+                <p
+                  className="experience-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  Since there's no official handbook to prepare for the 'real world'; our lived experiences get to transform into our manuals
+                </p>
+              </div>
             </div>
-            <div className="heading-text-div">
-              <h1 className="heading-text" style={{ color: theme.text }}>
-                Education
-              </h1>
-              <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                Basic Qualification and Certifications
-              </h3>
-              <p
-                className="experience-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                I actively participate in tech-related activities. Below are
-                some of my major certifications.
-              </p>
-            </div>
-          </div>
+          </a>
         </Fade>
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />

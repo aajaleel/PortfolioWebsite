@@ -32,7 +32,7 @@ function CertificationCard(props) {
             </div>
             <div className="content-details fadeIn-top">
               <h3 className="content-title" style={{ color: theme.body }}>
-                Certificate
+                {certificate.hover_text} {/* This will be unique for each certificate */}
               </h3>
             </div>
           </a>

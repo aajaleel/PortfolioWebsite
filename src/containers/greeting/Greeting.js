@@ -19,6 +19,13 @@ export default function Greeting(props) {
     },
   });
 
+  const typewriterStrings = [
+    `<span style="color: ${theme.accentColor}">${greeting.subTitle1}</span>`,
+    `<span style="color: ${theme.accentColor}">${greeting.subTitle2}</span>`,
+    `<span style="color: ${theme.accentColor}">${greeting.subTitle3}</span>`,
+    `<span style="color: ${theme.accentColor}">${greeting.subTitle4}</span>`,
+  ];
+
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -32,7 +39,7 @@ export default function Greeting(props) {
                   src={WaveHand}
                   alt="waving-hand"
                 />
-                ,{greeting.title2}
+                , {greeting.title2}
               </h1>
               <div
                 className="greeting-text-div subTitle"
@@ -41,22 +48,13 @@ export default function Greeting(props) {
                 <span className="greeting-text-static">I'm a </span>
                 <Typewriter
                   options={{
+                    strings: typewriterStrings,
                     autoStart: true,
                     loop: true,
-                  }}
-                  onInit={(typewriter) => {
-                    typewriter
-                      .pauseFor(500)
-                      .typeString(
-                        `<span style="color: ${theme.accentColor}">${greeting.subTitle1}</span>`
-                      )
-                      .pauseFor(300)
-                      .deleteChars(21)
-                      .typeString(
-                        `<span style="color: ${theme.accentColor}">${greeting.subTitle2}</span>`
-                      )
-                      .pauseFor(1000)
-                      .start();
+                    delay: 75,
+                    deleteSpeed: 50,
+                    cursor: "_",
+                    wrapperClassName: "typewriter-wrapper",  // To apply styles if needed
                   }}
                 />
               </div>

@@ -1,47 +1,60 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
 };
 
-//Home Page
+// Home Page
 const greeting = {
   title: "Hi",
-  title2: " I'm Sumit Sharma",
-  logo_name: "Sumit Sharma",
+  title2: " I'm Aaliyah Jaleel",
+  logo_name: "Aaliyah Jaleel",
   // nickname: "",
-  full_name: "Sumit Sharma",
-  subTitle1: "Software Developer.",
-  subTitle2: "Full Stack Developer.",
-  subTitle: "Full Stack Developer, Life Long Learner.",
-  // resumeLink:
-  //   "https://drive.google.com/file/d/1-SSCPhVG80IDtpx7_TPpsLfJyEA7NEtv/view?usp=drive_link",
-  mail: "mailto:sumitsharma9968@gmail.com",
+  full_name: "Aaliyah Jaleel",
+  subTitle1: "Technical Project Manager",
+  subTitle2: "Software Engineering Specialist",
+  subTitle3: "University of Toronto Student",
+  subTitle4: "Public Speaking Enthusiast",
+  //resumeLink:
+    //"https://drive.google.com/file/d/1-SSCPhVG80IDtpx7_TPpsLfJyEA7NEtv/view?usp=drive_link",
+  mail: "mailto:aaliyahjaleel1234@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/sumit-sharma-02",
-  linkedin: "https://www.linkedin.com/in/sumitsharma002",
-  gmail: "sumitsharma9968@gmail.com",
-  twitter: "https://twitter.com/sumitsharma002",
+  github: "https://github.com/aajaleel",
+  linkedin: "https://www.linkedin.com/in/aaliyahjaleel/",
+  gmail: "aaliyahjaleel1234@gmail.com"
 };
 
 const skills = {
   data: [
     {
       _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
-      title: "Full Stack Development",
+      title: "Software Engineering",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive user interfaces and backend for web applications",
-        "⚡ Building responsive website front end using React and Angular",
-        "⚡ Creating application backend in Node, Express, MongoDB and Rest API",
-        "⚡ Integration of third party services such as Firebase, Vercel etc.",
+        "💡 Developing responsive websites to improve performance and enhance UX",
+        "💡 Deploying scalable architecture to ensure reliability across platforms",
+        "💡 Creating mobile applications with real-time features to meet user needs",
       ],
       softwareSkills: [
+
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "logos:javascript",
+          style: {
+            backgroundColor: "#FFFFFF",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -56,97 +69,19 @@ const skills = {
             color: "#1572B6",
           },
         },
+
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "logos:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0769ad",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "simple-icons:redux",
-          style: {
-            color: "#593D88",
-          },
-        },
-        {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#dd0031",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "Express",
-          fontAwesomeClassname: "simple-icons:express",
+          skillName: "Vercel",
+          fontAwesomeClassname: "skill-icons:vercel-light",
           style: {
             color: "gray",
-          },
-        },
-        {
-          skillName: "Material UI",
-          fontAwesomeClassname: "simple-icons:uikit",
-          style: {
-            color: "#007FFF",
-          },
-        },
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "logos:tailwindcss-icon",
-          style: {
-            color: "#635BFF",
+            fill: "gray",
             width: "1em",
             height: "1em",
           },
         },
-        {
-          skillName: "Framer Motion",
-          fontAwesomeClassname: "logos:framer",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Styled Components",
-          fontAwesomeClassname: "vscode-icons:file-type-styled",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            color: "#563d7c",
-          },
-        },
+
+
         {
           skillName: "Postman",
           fontAwesomeClassname: "simple-icons:postman",
@@ -154,50 +89,12 @@ const skills = {
             color: "#FF6C37",
           },
         },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
+
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#439743",
-          },
-        },
-        {
-          skillName: "Cloudinary",
-          fontAwesomeClassname: "logos:cloudinary-icon",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Stripe",
-          fontAwesomeClassname: "logos:stripe",
-          style: {
-            color: "#635BFF",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
           },
         },
         {
@@ -207,18 +104,56 @@ const skills = {
             color: "#4479A1",
           },
         },
+
+      ],
+    },
+    {
+      _id: "c026fe64-1542-42b0-84ab-9311840c169f",
+      title: "Project Management",
+      fileName: "CloudInfraImg",
+      skills: [
+        "💡 Leading process improvements and defect resolution for efficient operations",
+        "💡 Coordinating between development and business teams to optimize project delivery",
+        "💡 Increasing stakeholder engagement through risk management and documentation",
+      ],
+      softwareSkills: [
         {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
+          skillName: "Jira",
+          fontAwesomeClassname: "simple-icons:jira",
           style: {
-            color: "#E94E32",
-          },
+            color: "#0052CC",
+            width: "1em",
+            height: "1em"
+          }
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
+          skillName: "SAP",
+          fontAwesomeClassname: "simple-icons:sap",
           style: {
-            color: "#E94E32",
+            color: "#0FAAFF"
+          }
+        },
+        {
+          skillName: "Power BI",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            color: "#F2C811"
+          }
+        },
+        {
+          skillName: "Confluence",
+          fontAwesomeClassname: "simple-icons:confluence",
+          style: {
+            color: "#172B4D"
+          }
+        },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "simple-icons:githubactions",
+          style: {
+            color: "#5b77ef",
+            width: "1em",
+            height: "1em",
           },
         },
         {
@@ -231,97 +166,15 @@ const skills = {
       ],
     },
     {
-      _id: "c026fe64-1542-42b0-84ab-9311840c169f",
-      title: "Infra-Architecture",
-      fileName: "CloudInfraImg",
+      _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
+      title: "Public Speaking",
+      fileName: "DesignImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "💡 Emceeing high-energy events, each tailored to resonate with unique audiences",
+        "💡 Directing public relations efforts, ensuring clear communication and impactful execution",
+        "💡 Creatively delivering complex concepts to maximize crowd engagement",
       ],
-      softwareSkills: [
-        {
-          skillName: "Google Cloud Platform",
-          fontAwesomeClassname: "skill-icons:gcp-dark",
-          style: {
-            backgroundColor: "transparent",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "skill-icons:vercel-light",
-          style: {
-            color: "gray",
-            fill: "gray",
-            // backgroundColor: "white",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-            width: "1em",
-            height: "1em",
-          },
-        },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
-            width: "1em",
-            height: "1em",
-          },
-        },
-      ],
+      softwareSkills: [],
     },
   ],
 };
@@ -329,278 +182,142 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Amrita Vishwa Vidyapeetham, Coimbatore",
-      subtitle: "Masters in Computer Applications (MCA)",
-      logo_path: "amrita_logo.png",
+      title: "Technical Project Manager",
+      subtitle: "Procter & Gamble",
+      logo_path: "PGLOGO.png",
       alt_name: "Amrita University",
-      duration: "2021 - 2023",
+      duration: "Jan 2024 - Jan 2025",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence, Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have done courses on Cloud Computing and Full Stack Development.",
+        "💡 Leading critical SAP projects and optimized supply chain delivery across regions",
       ],
-      website_link: "https://www.amrita.edu/",
     },
     {
-      title: "Guru Gobind Singh Indraprastha University, New Delhi",
-      subtitle: "Bachelors in Computer Applications (BCA)",
-      logo_path: "ggsipu_logo.png",
+      title: "Technician, Invigilator",
+      subtitle: "Centennial College",
+      logo_path: "Centennial.png",
       alt_name: "GGSIPU",
-      duration: "2018 - 2021",
+      duration: "May 2023 - Feb 2024",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development."
+        "💡 Maintained exam integrity by managing technical setups for secure testing",
       ],
-      website_link: "http://www.ipu.ac.in/",
     },
+    {
+      title: "IT Support Specialist",
+      subtitle: "University of Toronto",
+      logo_path: "UOFT.png",
+      alt_name: "GGSIPU",
+      duration: "Aug 2022 - Aug 2023",
+      descriptions: [
+        "💡 Provided tech support and managed lecture recordings for seamless access",
+      ],
+    },
+    {
+      title: "Technical Specialist",
+      subtitle: "Apple",
+      logo_path: "Apple.png",
+      alt_name: "GGSIPU",
+      duration: "May 2022 - Oct 2022",
+      descriptions: [
+        "💡 Resolved iOS issues and provided top-tier customer service at the Genius Bar",
+      ],
+    },
+    {
+      title: "Founding Engineer, Web Developer",
+      subtitle: "Zippy Power Banks",
+      logo_path: "ZIP.jpg",
+      alt_name: "GGSIPU",
+      duration: "Dec 2022 - Present",
+      descriptions: [
+        "💡 Launched a startup tailored to enhancing Power Bank accessibility",
+      ],
+    },
+    {
+      title: "Software Engineer / UX Designer",
+      subtitle: "West Oak Design Inc.",
+      logo_path: "westoakdesign_logo.jpeg",
+      alt_name: "GGSIPU",
+      duration: "May 2021 - Aug 2021",
+      descriptions: [
+        "💡 Developed and optimized a React Native e-commerce platform for STEM products",
+      ],
+    },
+
+
+
   ],
 };
 
 const certifications = {
-  certifications: [
-    {
-      title: "IBM Full Stack Software Developer",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/cbcd30865e98e2e45161a6ace19d3558",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Application Development using Microservices and Serverless",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/4fa1b8d2f654495a0b692b65d9964ad5",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Introduction to Cloud Computing",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/438a8e16af4786782c8a739aef79e999",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/cfa7b88b913e4a8446b9dc706c0802b0",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Django Application Development with SQL and Databases",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/47d8c39642888094ad458b5e44a3c9f3",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Developing AI Applications with Python and Flask",
-      subtitle: "",
-      logo_path: "ibm_logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/f4ce59c0d68e4569056faaf2fdb4c256",
-      alt_name: "IBM",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Frontend Developer Capstone",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/f80912b58e3afcfa49e6116210a2c9da",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Advanced React",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/877acd7eaf9dd532a2cb5b103576967e",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Java Programming: Build a Recommendation System",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/6af001cafc4b683bb38abdb9e81d0d79",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "React Basics",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/29c75a387fcaf2f1e2403f73473092b2",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Programming with JavaScript",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/cb44f1ee2db3f50b83a56cbae15fcc74",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "HTML and CSS in depth",
-      subtitle: "",
-      logo_path: "meta_logo.png",
-      certificate_link:
-        "https://coursera.org/share/667de02731a480b76b5300c6612d174d",
-      alt_name: "Meta",
-      color_code: "#096ce1",
-    },
-    {
-      title: "Java Programming: Principles of Software Design",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/f4e9af47fbb24381e04031f3cc8cfd9f",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Java Programming: Solving Problems with Software",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/36411fcea7ea4fbb5c613ef4911f4668",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Programming Foundations with JavaScript, HTML and CSS",
-      subtitle: "",
-      logo_path: "duke-logo.jpg",
-      certificate_link:
-        "https://coursera.org/share/0269c76c33997304d1842d4eef16815b",
-      alt_name: "Duke University",
-      color_code: "#001a57",
-    },
-    {
-      title: "Android Application Development - II",
-      subtitle: "- Dr. Adam Porter",
-      logo_path: "maryland_logo.svg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/GN48B7W9TU59",
-      alt_name: "Stanford University",
-      color_code: "#e11a2b",
-    },
-    {
-      title: "Android Application Development - I",
-      subtitle: "- Dr. Adam Porter",
-      logo_path: "maryland_logo.svg",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/2H59Z22DDSU8",
-      alt_name: "Stanford University",
-      color_code: "#e11a2b",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Christian Hur",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/97WF8EZ4Y2YD",
-      alt_name: "Coursera",
-      color_code: "#0056d2",
-    },
-    {
-      title: "ML and AI in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2862832",
-      alt_name: "GCP",
-      color_code: "#2fa9508a",
-    },
-    {
-      title: "Foundational Infrastructure in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2653409",
-      alt_name: "GCP",
-      color_code: "#4087f08a",
-    },
-    {
-      title: "Networking & Security in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2510430",
-      alt_name: "GCP",
-      color_code: "#eb40308a",
-    },
-    {
-      title: "Cloud Computing Fundamentals in GCP",
-      subtitle: "- GCP Training",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://www.cloudskillsboost.google/public_profiles/345a17d9-689f-4154-a3d3-c0396c98b3bc/badges/2469792",
-      alt_name: "GCP",
-      color_code: "#fabd008a",
-    },
-  ],
+  certifications: [],
 };
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work",
+  title: "Leadership",
+  subtitle: "Extracurriculars & Volunteerism",
   description:
-    "I've over 3+ years of experience as a Full Stack Developer. I've worked on building products for multiple stakeholders in Infosys, Ottonomy and Fractal.",
-  header_image_path: "experience.svg",
+    "Giving back to the community is a never-ending cycle - the efforts put into this world always find their way back to their owner",
+  // Replace the image path with a video embed
+  header_video: "https://www.youtube.com/embed/1gWvLHRY2o0 ", // Replace YOUR_VIDEO_ID with the actual video ID
   sections: {
-    title: "Work Experience",
+    title: "Volunteerism & Extracurriculars",
     experiences: [
       {
-        title: "SDE 2",
-        company: "Fractal",
-        company_url: "https://fractal.ai/",
-        logo_path: "fractal-logo.jpg",
-        alt_name: "fractal-logo",
-        duration: "(April, 2024 - Present)",
-        location: "Gurugram (Hybrid)",
-        // description: "<li> Developed an application to extract data from PDFs to accumulate data into table and key-value pairs, significantly improving data processing efficiency. </li><br><li>Implemented a user-friendly interface allowing users to pivot data fields into tables or key-value pairs, enhancing data analysis capabilities. </li>",
-        color: "#ffffff",
+        title: "Director of Events, Emcee",
+        company: "TEDx uoftscarborough",
+        logo_path: "tedX.JPEG",
+        link: "www.tedxuoftscarborough.com",
+        color: "#FFFFFF",
       },
       {
-        title: "SDE 1",
-        company: "Ottonomy",
-        company_url: "https://ottonomy.io/",
-        logo_path: "ottonomy-logo.webp",
-        alt_name: "ottonomy-logo",
-        duration: "(May, 2023 - April, 2024)",
-        location: "Gurugram (Hybrid)",
-        // description: "<li> Working on developing a media management software to schedule advertisements in the robot screens.</li><br><li>Working on optimizing E-commerce app and developing analytics dashboard for robots and orders.</li><br><li>Implemented socket to allow users to transfer the controlling of a robot to a different user.</li><br><li>Developed a dashboard to display live feed from robot with map, joystick controls to control the robot with robot commands.</li>",
-        color: "#000000",
+        title: "Vice President",
+        company: "Serendib Youth Canada",
+        logo_path: "SYCLOGO.png",  // This is the image you uploaded
+        color: "#FFFFFF",
+      },      
+
+      {
+        title: "Director of Computer Science",
+        company: "Scarborough Campus Student Union",
+        logo_path: "scsu.JPEG",
+        color: "#FFFFFF",
       },
       {
-        title: "Senior System Associate",
-        company: "Infosys",
-        company_url: "https://www.infosys.com/",
-        logo_path: "infosys-logo.png",
-        alt_name: "infosys-logo",
-        duration: "(Aug, 2021 - May, 2023)",
-        location: "Mysore (Remote)",
-        // description: "<li> Created a PWA for educators, allowing them to create analogies with animations using HTML, CSS, JavaScript, and Fabric.js.</li><br><li>Enhanced the product, introduced new features like multiple content pages, audio, custom gradients, trigger-based animations using React.js.</li><br><li>Developed an web based AR/VR learning platform using Node, Express and socket for multi-user experience and other features like chat, screen, audio and video share for web based.</li><br><li>Developed 2 new tools with an intuitive design for interactive content creation using Angular</li>",
-        color: "#0071C5",
+        title: "Dragon Boat Team Member",
+        company: "UTSC Crimson Dragons",
+        logo_path: "crimson.png",
+        color: "#FFFFFF",
       },
+
+      {
+        title: "Computer Science Gala Director",
+        company: "Association of Math/CS",
+        logo_path: "amacss2.png",
+        color: "#FFFFFF",
+      },
+
+      {
+        title: "Event Chair",
+        company: "Relay for Life",
+        logo_path: "r4l.png",
+        color: "#FFFFFF",
+      },
+  
+      {
+        title: "Keynote Speaker",
+        company: "Ecospark",
+        logo_path: "ecospark.jpeg",
+        color: "#FFFFFF",
+      },
+
+      {
+        title: "First Year Director",
+        company: "MUSLIM STUDENT ASSOCIATION",
+        logo_path: "msa.jpeg",
+        color: "#FFFFFF",
+      },
+
+      
     ],
   },
 };
@@ -609,19 +326,18 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create MERN, MEAN and Django Full Stack Projects. Below are some of my projects.",
-  avatar_image_path: "projects_image.svg",
+    "Academic understanding should be paired with real-world application, and technical projects are the perfect depiction of that union",
+  avatar_image_path: "Elle.jpg",
 };
 
 const projects = {
   data: [
     {
       id: "project-0",
-      name: "Crafty Commerce",
-      url: "https://crafty-commerce.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/crafty-commerce",
+      name: "Eventual",
+      repoUrl: "https://github.com/aajaleel/Eventual",
       description:
-        "Crafty Commerce is a full stack e-commerce web application that allows you to purchase different categories of product online. You can apply filters accordingly and find your favourite products in crafty commerce. You can pay with debit/credit cards and in just few click your product will be delivered.",
+        "Networking website for students to attend tailored events with like-minded students",
       languages: [
         {
           name: "React",
@@ -651,23 +367,14 @@ const projects = {
           name: "Tailwind",
           iconifyClass: "vscode-icons:file-type-tailwind",
         },
-        {
-          name: "Cloudinary",
-          iconifyClass: "logos:cloudinary-icon",
-        },
-        {
-          name: "Framer Motion",
-          iconifyClass: "logos:framer",
-        },
       ],
     },
     {
       id: "project-1",
-      name: "Tikkaway",
-      url: "https://restaurant-app-bceb0.web.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/tikkaway",
+      name: "Acourse",
+      repoUrl: "https://github.com/aajaleel/Acourse",
       description:
-        "Tikkaway is a full stack restaurant web application that allows you to order food online. It has wide variety of categories on the menu like Chicken, Curry, Rice, Fish, Fruits, Icecreams, Soft Drinks etc.",
+        " Mobile app for students to construct projected timetables based on program requirements and prerequisites at UofT",
       languages: [
         {
           name: "React",
@@ -693,11 +400,11 @@ const projects = {
     },
     {
       id: "project-2",
-      name: "MEAN Agency",
+      name: "SysProg",
       url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/mean-agency",
+      repoUrl: "https://github.com/aajaleel/SysProg",
       description:
-        "Mean Agency is a full stack service provider web application that allows you to provide services to other companies.",
+        "Modular C program to monitor OS processes, displaying memory/CPU usage and graphical FD Table insights",
       languages: [
         {
           name: "Angular",
@@ -727,10 +434,9 @@ const projects = {
     },
     {
       id: "project-3",
-      name: "Countdown Timer",
-      url: "https://countdown-timer-sumit-sharma-02.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/countdown-timer",
-      description: "A Simple React App for countdown to new year using hooks.",
+      name: "Flora",
+      repoUrl: "https://github.com/aajaleel/Flora",
+      description: "An immersive MIPS Assembly Platformer game with multiplayer 2-D GUI gameplay",
       languages: [
         {
           name: "HTML5",
@@ -752,10 +458,10 @@ const projects = {
     },
     {
       id: "project-4",
-      name: "Portfolio",
+      name: "FuelUp",
       url: "",
-      repoUrl: "https://github.com/sumit-sharma-02/sumit-portfolio",
-      description: "You are watching it right now 😉.",
+      repoUrl: "https://github.com/aajaleel/FuelUp",
+      description: "Gas Price Matching App to enable users to efficiently locate available resources",
       languages: [
         {
           name: "React",
@@ -785,11 +491,11 @@ const projects = {
     },
     {
       id: "project-5",
-      name: "SpaceX Capsules",
-      url: "https://spacex-capsules.vercel.app/",
-      repoUrl: "https://github.com/sumit-sharma-02/spacex-capsules",
+      name: "Cyber Badge Pass",
+      url: "",
+      repoUrl: "",
       description:
-        "A React application which shows you the filtered spaceX capsules data.",
+        "An ML-based solution to real-world cybersecurity issue of misswiped entry badges at P&G",
       languages: [
         {
           name: "React",
@@ -812,9 +518,9 @@ const projects = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "portfolioProfileImage.png",
+    profile_image_path: "Headshot.jpg",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Please feel free to reach out through any of the forums below - I'd love to chat!",
   },
 };
 

@@ -24,11 +24,12 @@
   width: 100%;
   text-align: center;
   border: none;
+  height: 100%; /* Set height to 100% */
 }
 
 @media (max-width: 600px) {
   .experience-card {
-    height: 580px;
+    height: 100%; /* Ensure height is 100% on mobile as well */
   }
 }
 
@@ -48,11 +49,26 @@
   box-shadow: 0px 8px #bc344e, 0 6px 20px 0 rgb(0 0 0 / 19%),
     0 6px 20px 0 rgb(0 0 0 / 19%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-
 .experience-card-1:hover {
   border-radius: 13px;
   z-index: 0;
   cursor: pointer;
+}
+
+.experience-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  background: #333;
+  padding: 10px;
+  height: 100%; /* Adjusted height for content */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.experience-card-body:hover {
+  transform: scale(1);
+  background-color: #e3405f; /* Background color change on hover */
 }
 
 .experience-card-body .pre-heading {
@@ -63,6 +79,7 @@
 
 .experience-card-body .meta {
   font-size: 16px;
+  text-align: center; /* Center text horizontally */
 }
 
 .experience-card-body .author {
@@ -76,6 +93,20 @@
   text-align: center;
   font-weight: 500;
   line-height: 1.2;
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.experience-card-body:hover h3,
+.experience-card-body:hover .meta {
+  color: #ffffff; /* Text color change on hover */
+}
+
+.title {
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  text-align: center;
+  width: 100%;
 }
 
 .main ul,
@@ -97,7 +128,7 @@
   z-index: -5;
   right: -16px;
   bottom: 10px;
-  height: 30%;
+  height: 100%; /* Adjusted to match new height */
   width: 4.55%;
   background: #e3405f;
   border-radius: 32px;
@@ -117,6 +148,7 @@
   color: #ffffff;
 }
 
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
@@ -127,21 +159,12 @@
   }
 }
 
-.experience-card-body {
-  animation: 0.5s ease-out 0s 1 slideInFromLeft;
-  background: #333;
-  padding: 10px;
-}
-
-.experience-card-body:hover {
-  transform: scale(1);
-}
-
 .experience-card-1 .experience-card-body {
   display: flex;
   flex-flow: row wrap;
   padding: 18px;
   width: 100%;
+  height: 100%; /* Adjusted height to fit the card */
 }
 
 .experience-card-1 header {
@@ -160,7 +183,7 @@ ul ol {
 }
 
 .experience-company-logo {
-  width: 300px;
+  width: 150px; /* Adjusted to match new height */
   height: 100%;
   display: flex;
   align-items: center;
@@ -174,7 +197,7 @@ ul ol {
   background-position: center;
   background-repeat: no-repeat;
   height: auto;
-  width: 300px;
+  width: 150px; /* Adjusted to match new height */
 }
 
 @media only screen and (min-width: 1280px) {
@@ -194,7 +217,7 @@ ul ol {
 
   .experience-card-1 .featured-image {
     height: auto;
-    width: 300px;
+    width: 150px; /* Adjusted to match new height */
   }
 
   .experience-card-1 .experience-company-logo {
@@ -202,23 +225,23 @@ ul ol {
     border-bottom-left-radius: 13px;
     border-top-right-radius: 0;
     height: auto;
-    width: 300px;
+    width: 150px; /* Adjusted to match new height */
   }
 
   .experience-card-1 .experience-card-body {
-    height: 300px;
+    height: 100%; /* Adjusted height */
   }
 }
 
 @media only screen and (max-width: 992px) {
   .experience-card-1 .featured-image {
-    width: 300px;
+    width: 150px; /* Adjusted to match new height */
     height: auto;
   }
 
   .experience-card-1 .experience-company-logo {
     height: 100%;
-    width: 300px;
+    width: 150px; /* Adjusted to match new height */
   }
 }
 
@@ -278,4 +301,36 @@ ul ol {
     height: auto;
     width: 100%;
   }
+}
+
+.experience-card-video {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.experience-card-video iframe {
+  width: 100%;
+  height: 315px; /* You can adjust the height as needed */
+  border: none;
+  border-radius: 8px;
+}
+.experience-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block; /* Make the entire card clickable */
+}
+
+.experience-card-link:hover .experience-card-body {
+  background-color: #e3405f; /* Background color change on hover */
+}
+
+.experience-card-link:hover .experience-card-body h3,
+.experience-card-link:hover .experience-card-body .meta {
+  color: #ffffff; /* Text color change on hover */
+}
+
+.experience-card-link:hover .experience-card-1 {
+  transform: scale(1.02); /* Slight scaling effect on hover */
+  transition: transform 0.2s ease-in-out;
 }
