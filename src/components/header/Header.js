@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Fade } from "react-reveal";
+import { motion } from "framer-motion";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
@@ -63,7 +63,11 @@ function Header(props) {
     );
 
   return (
-    <Fade top duration={1000} distance="20px">
+    <motion.div
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
       <div
         className={`${
           props.theme.name === "light"
@@ -145,7 +149,7 @@ function Header(props) {
           </ul>
         </header>
       </div>
-    </Fade>
+    </motion.div>
   );
 }
 

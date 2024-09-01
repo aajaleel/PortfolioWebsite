@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
-import { settings } from "./portfolio";
 import { TooltipProvider } from "react-tooltip";
 import Main from "./containers/Main";
 import "./App.css";

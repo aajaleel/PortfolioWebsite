@@ -1,16 +1,18 @@
 {
   "name": "sumit-portfolio",
   "version": "0.1.0",
+  "sideEffects": false,
   "private": true,
   "homepage": "https://aajaleel.github.io/",
   "dependencies": {
     "baseui": "^12.2.0",
-    "eslint-config-react-app": "^7.0.1",
+    "framer-motion": "^11.3.31",
     "glamor": "^2.20.40",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-is": "^18.2.0",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
     "react-tooltip": "^5.7.1",
@@ -21,10 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install": "npm install --legacy-peer-deps"
+    "install": "npm install --legacy-peer-deps",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "eslintConfig": {
     "extends": [
