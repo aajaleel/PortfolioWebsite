@@ -306,7 +306,7 @@ const experience = {
       {
         title: "Keynote Speaker",
         company: "Ecospark",
-        logo_path: "ecospark.jpeg",
+        logo_path: "ecospark.webp",
         color: "#FFFFFF",
       },
 
