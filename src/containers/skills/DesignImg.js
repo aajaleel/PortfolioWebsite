@@ -1,5 +1,5 @@
 import React from "react";
-import design from "../../assets/images/Stage.jpg"; // Replace with the correct path to your image
+import design from "../../assets/images/mail.png"; // Replace with the correct path to your image
 
 export default function DesignImg() {
   return (
