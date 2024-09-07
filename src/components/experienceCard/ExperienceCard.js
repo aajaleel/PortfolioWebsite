@@ -15,7 +15,7 @@ function ExperienceCard(props) {
           >
             <div className="experience-company-logo">
               <img
-                //src={require(`../../assets/images/${experience.logo_path}`)}
+                src={require(`../../assets/images/${experience.logo_path}`)}
                 className="featured-image"
                 alt={experience.alt_name}
               />

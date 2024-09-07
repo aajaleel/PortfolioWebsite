@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/images/mail.png";
+import image from "../../assets/images/ellee.webp";
 
 export default function ProjectsImg(props) {
   return (

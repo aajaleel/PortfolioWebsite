@@ -67,7 +67,7 @@ export default function Greeting(props) {
                     rel="noopener noreferrer"
                     href={greeting.resumeLink}
                   >
-                    Résumé
+                    Resume
                   </a>
                 </div>
               )}

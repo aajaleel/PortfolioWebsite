@@ -15,8 +15,8 @@ const greeting = {
   subTitle2: "Software Engineering Specialist",
   subTitle3: "University of Toronto Student",
   subTitle4: "Public Speaking Enthusiast",
-  //resumeLink:
-    //"https://drive.google.com/file/d/1-SSCPhVG80IDtpx7_TPpsLfJyEA7NEtv/view?usp=drive_link",
+  resumeLink:
+    "https://drive.google.com/file/d/1dtj4R-P32vaR8Mrha7MNbVvIdj-DHOca/view?usp=sharing",
   mail: "mailto:aaliyahjaleel1234@gmail.com",
 };
 
@@ -32,7 +32,7 @@ const skills = {
     {
       _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
       title: "Software Engineering",
-      fileName: "", //FullStackImg
+      fileName: "FullStackImg", //
       skills: [
         "💡 Developing responsive websites to improve performance and enhance UX",
         "💡 Deploying scalable architecture to ensure reliability across platforms",
@@ -110,7 +110,7 @@ const skills = {
     {
       _id: "c026fe64-1542-42b0-84ab-9311840c169f",
       title: "Project Management",
-      fileName: "", //CloudInfraImg
+      fileName: "CloudInfraImg", //
       skills: [
         "💡 Leading process improvements and defect resolution for efficient operations",
         "💡 Coordinating between development and business teams to optimize project delivery",
@@ -168,7 +168,7 @@ const skills = {
     {
       _id: "354c54b7-ffd8-40f1-972f-1d006733df25",
       title: "Public Speaking",
-      fileName: "", //DesignImg
+      fileName: "DesignImg", //
       skills: [
         "💡 Emceeing high-energy events, each tailored to resonate with unique audiences",
         "💡 Directing public relations efforts, ensuring clear communication and impactful execution",
@@ -184,7 +184,7 @@ const degrees = {
     {
       title: "Technical Project Manager",
       subtitle: "Procter & Gamble",
-      //logo_path: "PGLOGO.png",
+      logo_path: "PGLOGO.webp",
       alt_name: "Amrita University",
       duration: "Jan 2024 - Jan 2025",
       descriptions: [
@@ -194,7 +194,7 @@ const degrees = {
     {
       title: "Technician, Invigilator",
       subtitle: "Centennial College",
-      //logo_path: "Centennial.png",
+      logo_path: "Centennial.webp",
       alt_name: "GGSIPU",
       duration: "May 2023 - Feb 2024",
       descriptions: [
@@ -204,7 +204,7 @@ const degrees = {
     {
       title: "IT Support Specialist",
       subtitle: "University of Toronto",
-      //logo_path: "UOFT.png",
+      logo_path: "UOFT.webp",
       alt_name: "GGSIPU",
       duration: "Aug 2022 - Aug 2023",
       descriptions: [
@@ -214,7 +214,7 @@ const degrees = {
     {
       title: "Technical Specialist",
       subtitle: "Apple",
-      //logo_path: "Apple.png",
+      logo_path: "Apple.webp",
       alt_name: "GGSIPU",
       duration: "May 2022 - Oct 2022",
       descriptions: [
@@ -224,7 +224,7 @@ const degrees = {
     {
       title: "Founding Engineer, Web Developer",
       subtitle: "Zippy Power Banks",
-      //logo_path: "ZIP.jpg",
+      logo_path: "ZIP.webp",
       alt_name: "GGSIPU",
       duration: "Dec 2022 - Present",
       descriptions: [
@@ -234,7 +234,7 @@ const degrees = {
     {
       title: "Software Engineer / UX Designer",
       subtitle: "West Oak Design Inc.",
-      //logo_path: "westoakdesign_logo.jpeg",
+      logo_path: "westoakdesign_logo.webp",
       alt_name: "GGSIPU",
       duration: "May 2021 - Aug 2021",
       descriptions: [
@@ -256,7 +256,7 @@ const experience = {
   title: "Leadership",
   subtitle: "Extracurriculars & Volunteerism",
   description:
-    "Giving back to the community is a never-ending cycle - the efforts put into this world always find their way back to their owner",
+    "The efforts put into this world always find their way back to their owner - giving back to the community is a never-ending cycle",
   // Replace the image path with a video embed
   header_video: "https://www.youtube.com/embed/1gWvLHRY2o0 ", // Replace YOUR_VIDEO_ID with the actual video ID
   sections: {
@@ -265,55 +265,55 @@ const experience = {
       {
         title: "Director of Events, Emcee",
         company: "TEDx uoftscarborough",
-        //logo_path: "tedX.JPEG",
-        link: "www.tedxuoftscarborough.com",
+        logo_path: "tedX.webp",
+        //link: "www.tedxuoftscarborough.com",
         color: "#FFFFFF",
       },
       {
         title: "Vice President",
         company: "Serendib Youth Canada",
-       // logo_path: "SYCLOGO.png",  // This is the image you uploaded
+        logo_path: "SYCLOGO.webp",  // This is the image you uploaded
         color: "#FFFFFF",
       },      
 
       {
         title: "Director of Computer Science",
         company: "Scarborough Campus Student Union",
-        //logo_path: "scsu.JPEG",
+        logo_path: "scsu.webp",
         color: "#FFFFFF",
       },
       {
         title: "Dragon Boat Team Member",
         company: "UTSC Crimson Dragons",
-        //logo_path: "crimson.png",
+        logo_path: "crimson.webp",
         color: "#FFFFFF",
       },
 
       {
         title: "Computer Science Gala Director",
         company: "Association of Math/CS",
-        //logo_path: "amacss2.png",
+        logo_path: "amacss2.webp",
         color: "#FFFFFF",
       },
 
       {
         title: "Event Chair",
         company: "Relay for Life",
-        //logo_path: "r4l.png",
+        logo_path: "r4l.webp",
         color: "#FFFFFF",
       },
   
       {
         title: "Keynote Speaker",
         company: "Ecospark",
-        //logo_path: "ecospark.webp",
+        logo_path: "ecospark.webp",
         color: "#FFFFFF",
       },
 
       {
         title: "First Year Director",
         company: "MUSLIM STUDENT ASSOCIATION",
-        //logo_path: "msa.jpeg",
+        logo_path: "msa.webp",
         color: "#FFFFFF",
       },
 
@@ -327,7 +327,7 @@ const projectsHeader = {
   title: "Projects",
   description:
     "Academic understanding should be paired with real-world application, and technical projects are the perfect depiction of that union",
-  avatar_image_path: "", //Elle.jpg
+  avatar_image_path: "ellee.webp", 
 };
 
 const projects = {
